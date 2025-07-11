@@ -70,15 +70,7 @@ git clone https://github.com/ingridliana-dev/palavra-cruzada-brasileira.git
 cd palavra-cruzada-brasileira
 ```
 
-Abra o arquivo `index.html` em seu navegador ou use um servidor local:
-
-```bash
-# Com Python
-python -m http.server 8000
-
-# Com Node.js
-npx http-server
-```
+Abra o arquivo `index.html` diretamente no seu navegador - não precisa de servidor local!
 
 ## 📄 Licença
 
