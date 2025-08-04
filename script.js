@@ -604,7 +604,7 @@ class PalavrasCruzadas {
         }
     }
     
-    highlightWord(linha, coluna) {
+    highlightWord() {
         document.querySelectorAll('.cell-input').forEach(input => {
             input.classList.remove('highlighted');
         });
@@ -693,7 +693,7 @@ class PalavrasCruzadas {
         
         document.querySelectorAll('.cell-input').forEach(input => {
             input.value = '';
-            input.classList.remove('correct', 'incorrect', 'highlighted');
+            input.classList.remove('correct', 'incorrect', 'highlighted', 'hint');
         });
     }
     
